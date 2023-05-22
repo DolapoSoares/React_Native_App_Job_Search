@@ -1,7 +1,10 @@
-import { Stark } from "expo-router"
+import { Stack } from "expo-router/stack"
 
 const Layout = () => {
-    return <Stark />
+    return ( 
+    <Stack />
+    )
+    
 }
 
 export default Layout
