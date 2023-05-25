@@ -25,7 +25,13 @@ const Welcome = () => {
             placeholder="Search for jobs here"
             />
         </View>
+
+        <TouchableOpacity>
+          <Image source={icons.search}/>
+        </TouchableOpacity>
       </View>
+
+
     </View>
   )
 }
