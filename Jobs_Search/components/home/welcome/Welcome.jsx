@@ -18,7 +18,12 @@ const Welcome = () => {
 
       <View style={styles.searchContainer}>
         <View style={styles.searchWrapper}>
-          <TextInput style={styles.searchInput}>Search Jobs</TextInput>
+          <TextInput 
+            style={styles.searchInput}
+            value=""
+            onChange={() => {}}
+            placeholder="Search for jobs here"
+            />
         </View>
       </View>
     </View>
